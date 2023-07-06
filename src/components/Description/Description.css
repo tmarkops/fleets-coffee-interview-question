@@ -1,0 +1,16 @@
+.descriptionContainer {
+    display: inline-block;
+    text-align: left;
+    padding: 1%;
+    background-color: white;
+    margin: 1% 4%;
+    border-radius: 35px;
+}
+
+ul {
+
+}
+
+li {
+    margin: 10px 0;
+}

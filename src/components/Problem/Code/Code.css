@@ -1,0 +1,13 @@
+.codeContainer{
+    background-color: white;
+    flex: 1 1 0;
+    margin: 1%;
+    text-align: left;
+    border-radius: 35px;
+    padding: 0 1%;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+}

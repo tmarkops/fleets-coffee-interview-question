@@ -1,0 +1,12 @@
+.demoContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex: 1 1 0;
+    border-radius: 35px;
+    margin: 7% 0;
+}
+
+.centerContainer{
+    align-items: center;
+}
