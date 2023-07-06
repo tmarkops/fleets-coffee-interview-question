@@ -4,7 +4,7 @@ export const Code = () => {
 
     const codeSnippet = 
     `const firstNonRepeated = (s:string) => {
-
+        const noSpaceWord = s.replace(/ /g, '');
         const word = s.toLowerCase();
         const seenLetters: { [key: string]: number } = {};
             
