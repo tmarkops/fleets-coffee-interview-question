@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+This project was created using create-react-app.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is currently live on https://tmarkops.github.io/fleets-coffee-interview-question
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+For this coding problem, the logic of my solution is as follows:
+            <ul>
+                <li>I will make all the letters lowercase so that the function doesn't differentiate between upper and lowercase letters (not specified in problem description)</li>
+                <li>I will iterate through the word a first time, and keep track of the number of occurences of each letter in an object.</li> 
+                <li>The key of the object will be the letter and the value is the number of times it is found in the word (incrementing its value by one every time it
+                is encountered).</li>
+                <li>If the letter is not already in the object I will assign it a value of 1.</li>
+                <li>I will then iterate through the word a second time, and at each letter I will look up the value of that letter's key in the object.</li>
+                <li>I will return the first letter that has a value of 1 in the object.</li>
+                <li>If no letter has a value of 1, I will return an empty string.</li>
+            </ul>
