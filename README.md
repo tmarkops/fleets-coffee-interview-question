@@ -4,6 +4,7 @@ This project is currently live on https://tmarkops.github.io/fleets-coffee-inter
 
 For this coding problem, the logic of my solution is as follows:
             <ul>
+                <li>Although the input should just be uppercase and lowercase letters, I will remove whitespaces so that the demo is more user-friendly.</li>
                 <li>I will make all the letters lowercase so that the function doesn't differentiate between upper and lowercase letters (not specified in problem description)</li>
                 <li>I will iterate through the word a first time, and keep track of the number of occurences of each letter in an object.</li> 
                 <li>The key of the object will be the letter and the value is the number of times it is found in the word (incrementing its value by one every time it
